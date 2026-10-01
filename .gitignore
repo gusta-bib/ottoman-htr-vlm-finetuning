@@ -1,0 +1,37 @@
+# Credentials and Environment
+email_config.json
+*.env
+.env
+*.key
+*.token
+*_token*
+
+# Python & IDE caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Large binaries, models, weights, environments
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+.venv/
+venv/
+env/
+
+# Archives (benchmark data)
+evaluation/benchmarks/id_815_rika/
+evaluation/benchmarks/ood_1575_osmanlicacom/
+evaluation/benchmarks/*.tar.gz
+
+# Drive sync temp files
+~$*
+*.tmp
+.~lock.*
+*(1)*
+*conflict*

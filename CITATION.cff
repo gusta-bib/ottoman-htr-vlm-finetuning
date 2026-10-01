@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Fine-Tuning Vision-Language Models for Ottoman Handwritten Text Recognition"
+authors:
+  - name: "Anonymous"
+date-released: "2026-01-01"
+license: "MIT"
+repository-code: "https://github.com/anonymous/ottoman-htr-vlm-finetuning"

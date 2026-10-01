@@ -1,0 +1,24 @@
+name: ottoman-htr
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24.0
+  - scipy>=1.11.0
+  - pandas>=2.0.0
+  - shapely>=2.0.0
+  - pyyaml>=6.0.0
+  - tqdm>=4.66.0
+  - pillow>=10.0.0
+  - pip:
+      - transformers>=4.40.0
+      - accelerate>=0.28.0
+      - peft>=0.10.0
+      - bitsandbytes>=0.42.0
+      - opencv-python-headless>=4.8.0
+      - pyclipper>=1.3.0
+      - onnxruntime>=1.16.0
