@@ -1,0 +1,19 @@
+{
+    "model_name": "qwen35_2b_latin_gptq_w4a16_v3_15042_7740_4678",
+    "model_path": "<PROJECT_ROOT>/models/qwen35_2b_latin_gptq_w4a16_v3_15042_7740_4678",
+    "dataset_name": "osmanlicacom_1575",
+    "dataset_path": "<PROJECT_ROOT>/data-set/osmanlıca.com_1575_line_based_rika_latin",
+    "total_samples": 1575,
+    "inference_engine": "vLLM (GPTQ W4A16)",
+    "micro_raw_cer": 47.51,
+    "macro_raw_cer": 49.79,
+    "macro_raw_wer": 88.01,
+    "micro_norm_cer": 42.92,
+    "macro_norm_cer": 45.16,
+    "macro_norm_wer": 83.63,
+    "chrf_plus_plus": 30.02,
+    "inference_time_sec": 55.27,
+    "throughput_samples_per_sec": 28.49,
+    "total_duration_sec": 102.55,
+    "timestamp": "2026-08-28 10:57:43"
+}

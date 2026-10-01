@@ -1,0 +1,19 @@
+{
+    "model_name": "qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_highres_lora32",
+    "model_path": "<PROJECT_ROOT>/models/qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_highres_lora32",
+    "dataset_name": "815_rika",
+    "dataset_path": "<PROJECT_ROOT>/data-set/815_line_based_in_distrubition_rika_latin",
+    "total_samples": 815,
+    "inference_engine": "vLLM (GPTQ W4A16)",
+    "micro_raw_cer": 16.6,
+    "macro_raw_cer": 19.48,
+    "macro_raw_wer": 38.22,
+    "micro_norm_cer": 14.96,
+    "macro_norm_cer": 17.7,
+    "macro_norm_wer": 33.12,
+    "chrf_plus_plus": 71.69,
+    "inference_time_sec": 51.4,
+    "throughput_samples_per_sec": 15.86,
+    "total_duration_sec": 96.57,
+    "timestamp": "2026-09-05 02:53:26"
+}

@@ -1,0 +1,23 @@
+{
+    "model_name": "qwen35_9b_lowhp_gptq_w4a16",
+    "model_path": "<PROJECT_ROOT>/models/qwen35_9b_lowhp_gptq_w4a16",
+    "dataset_name": "815_rika",
+    "dataset_path": "<PROJECT_ROOT>/data-set/815_line_based_in_distrubition_rika_latin",
+    "total_samples": 815,
+    "inference_engine": "vLLM (GPTQ W4A16)",
+    "inference_min_pixels": 100352,
+    "inference_max_pixels": 602112,
+    "repetition_penalty": 1.12,
+    "temperature": 0.0,
+    "max_new_tokens": 256,
+    "micro_raw_cer": 25.85,
+    "macro_raw_cer": 29.21,
+    "macro_raw_wer": 55.87,
+    "micro_norm_cer": 23.36,
+    "macro_norm_cer": 26.48,
+    "macro_norm_wer": 47.75,
+    "chrf_plus_plus": 58.95,
+    "inference_time_sec": 103.16,
+    "throughput_samples_per_sec": 7.9,
+    "timestamp": "2026-09-30 12:16:36"
+}

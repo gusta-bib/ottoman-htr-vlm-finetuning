@@ -1,0 +1,27 @@
+================================================================================
+📊 9B LOW HP MODEL (qwen35_9b_lowhp_gptq_w4a16) EVALUATION REPORT
+================================================================================
+Model Adı               : qwen35_9b_lowhp_gptq_w4a16
+Model Yolu              : <PROJECT_ROOT>/models/qwen35_9b_lowhp_gptq_w4a16
+Çıkarım Motoru          : vLLM + compressed-tensors (GPTQ W4A16)
+Çıkarım Çözünürlük Sınır: min_pixels = 100352 (100.352 px), max_pixels = 602112 (602.112 px)
+Repetition Penalty      : 1.12
+Test Veri Seti          : 815_rika (<PROJECT_ROOT>/data-set/815_line_based_in_distrubition_rika_latin)
+Toplam Test Satırı      : 815
+Tarih / Saat            : 2026-09-30 12:16:36
+--------------------------------------------------------------------------------
+🏆 DEĞERLENDİRME SKORLARI (HAM - NORMALIZE EDİLMEMİŞ):
+  📌 Micro CER (%)       : %25.85
+  📌 Macro CER (%)       : %29.21
+  📌 Macro WER (%)       : %55.87
+--------------------------------------------------------------------------------
+✨ DEĞERLENDİRME SKORLARI (NORMALİZE EDİLMİŞ - Noktalama & Aksan Toleranslı):
+  📌 Micro CER (%)       : %23.36
+  📌 Macro CER (%)       : %26.48
+  📌 Macro WER (%)       : %47.75
+--------------------------------------------------------------------------------
+📈 DİĞER METRİKLER VE HIZ:
+  📌 chrF++ Skoru        : 58.95
+  📌 Toplam Çıkarım Süresi: 103.16 saniye
+  📌 Çıkarım Hızı (Hız)   : 7.90 satır / saniye
+================================================================================

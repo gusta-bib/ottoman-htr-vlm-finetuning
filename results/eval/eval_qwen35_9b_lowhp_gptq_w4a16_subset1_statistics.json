@@ -1,0 +1,58 @@
+{
+    "id_stats": {
+        "n_samples": 815,
+        "micro_raw_cer": 25.85,
+        "micro_raw_ci": [
+            24.3,
+            27.9
+        ],
+        "micro_norm_cer": 23.36,
+        "micro_norm_ci": [
+            21.87,
+            25.37
+        ],
+        "macro_norm_cer": 26.48,
+        "macro_norm_ci": [
+            24.76,
+            28.45
+        ],
+        "macro_raw_cer": 29.21
+    },
+    "ood_stats": {
+        "n_samples": 1575,
+        "micro_raw_cer": 54.53,
+        "micro_raw_ci": [
+            52.44,
+            57.04
+        ],
+        "micro_norm_cer": 50.16,
+        "micro_norm_ci": [
+            48.07,
+            52.61
+        ],
+        "macro_norm_cer": 53.49,
+        "macro_norm_ci": [
+            51.29,
+            55.85
+        ],
+        "macro_raw_cer": 58.11
+    },
+    "id_paired_vs_high_hp_v1": {
+        "n_matched": 815,
+        "micro_low": 23.36,
+        "micro_high": 14.58,
+        "delta": 8.78,
+        "ci_lower": 7.45,
+        "ci_upper": 10.61,
+        "p_value": 0.0001
+    },
+    "ood_paired_vs_high_hp_v1": {
+        "n_matched": 1575,
+        "micro_low": 50.16,
+        "micro_high": 40.73,
+        "delta": 9.43,
+        "ci_lower": 6.56,
+        "ci_upper": 12.34,
+        "p_value": 0.0001
+    }
+}

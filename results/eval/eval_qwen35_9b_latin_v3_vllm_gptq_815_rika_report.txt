@@ -1,0 +1,26 @@
+================================================================================
+📊 OSMANLICA OCR BENCHMARK DEĞERLENDİRME RAPORU
+================================================================================
+Model                   : Qwen3.5-9B Latin Merged v3 (GPTQ W4A16)
+Çıkarım Motoru          : vLLM (compressed-tensors)
+Test Veri Seti          : 815_line_based_in_distrubition_rika_latin
+Toplam Test Örneği      : 815
+Repetition Penalty      : 1.12
+Tarih / Saat            : 2026-08-25 09:17:46
+--------------------------------------------------------------------------------
+🏆 DEĞERLENDİRME SKORLARI (HAM - NORMALIZE EDİLMEMİŞ):
+  📌 Micro CER (%)       : %14.52
+  📌 Macro CER (%)       : %17.47
+  📌 Macro WER (%)       : %33.76
+--------------------------------------------------------------------------------
+✨ DEĞERLENDİRME SKORLARI (NORMALİZE EDİLMİŞ):
+  📌 Micro CER (%)       : %13.14
+  📌 Macro CER (%)       : %15.95
+  📌 Macro WER (%)       : %28.76
+  📌 chrF++ Skoru        : 75.64
+--------------------------------------------------------------------------------
+⚡ PERFORMANS VE HIZ:
+  ⏱️ Toplam Çıkarım Süresi: 118.10 saniye (1.97 dakika)
+  🚀 Çıkarım Hızı         : 6.90 satır / saniye
+  ⌛ Toplam Süre          : 2.76 dakika
+================================================================================

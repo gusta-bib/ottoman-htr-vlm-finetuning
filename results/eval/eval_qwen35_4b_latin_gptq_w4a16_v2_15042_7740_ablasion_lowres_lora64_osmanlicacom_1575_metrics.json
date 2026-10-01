@@ -1,0 +1,19 @@
+{
+    "model_name": "qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_lowres_lora64",
+    "model_path": "<PROJECT_ROOT>/models/qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_lowres_lora64",
+    "dataset_name": "osmanlicacom_1575",
+    "dataset_path": "<PROJECT_ROOT>/data-set/osmanlıca.com_1575_line_based_rika_latin",
+    "total_samples": 1575,
+    "inference_engine": "vLLM (GPTQ W4A16)",
+    "micro_raw_cer": 48.62,
+    "macro_raw_cer": 52.5,
+    "macro_raw_wer": 92.41,
+    "micro_norm_cer": 44.22,
+    "macro_norm_cer": 48.05,
+    "macro_norm_wer": 87.2,
+    "chrf_plus_plus": 30.86,
+    "inference_time_sec": 91.64,
+    "throughput_samples_per_sec": 17.19,
+    "total_duration_sec": 140.55,
+    "timestamp": "2026-09-05 03:01:08"
+}

@@ -1,0 +1,19 @@
+{
+    "model_name": "qwen35_9b_latin_gptq_w4a16_v1_15042",
+    "model_path": "<PROJECT_ROOT>/models/qwen35_9b_latin_gptq_w4a16_v1_15042",
+    "dataset_name": "815_rika",
+    "dataset_path": "<PROJECT_ROOT>/data-set/815_line_based_in_distrubition_rika_latin",
+    "total_samples": 815,
+    "inference_engine": "vLLM (GPTQ W4A16)",
+    "micro_raw_cer": 16.2,
+    "macro_raw_cer": 19.13,
+    "macro_raw_wer": 37.22,
+    "micro_norm_cer": 14.58,
+    "macro_norm_cer": 17.37,
+    "macro_norm_wer": 31.93,
+    "chrf_plus_plus": 72.63,
+    "inference_time_sec": 119.43,
+    "throughput_samples_per_sec": 6.82,
+    "total_duration_sec": 172.6,
+    "timestamp": "2026-09-05 02:46:41"
+}

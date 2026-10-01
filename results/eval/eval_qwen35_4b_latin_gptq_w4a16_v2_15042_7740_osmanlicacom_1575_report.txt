@@ -1,0 +1,26 @@
+================================================================================
+📊 OSMANLICA HTR vLLM BENCHMARK DEĞERLENDİRME RAPORU
+================================================================================
+Model Adı               : qwen35_4b_latin_gptq_w4a16_v2_15042_7740
+Model Yolu              : <PROJECT_ROOT>/models/qwen35_4b_latin_gptq_w4a16_v2_15042_7740
+Çıkarım Motoru          : vLLM + compressed-tensors (GPTQ W4A16)
+Test Veri Seti          : osmanlicacom_1575 (<PROJECT_ROOT>/data-set/osmanlıca.com_1575_line_based_rika_latin)
+Toplam Test Satırı      : 1575
+Tarih / Saat            : 2026-08-28 11:06:46
+--------------------------------------------------------------------------------
+🏆 DEĞERLENDİRME SKORLARI (HAM - NORMALIZE EDİLMEMİŞ):
+  📌 Micro CER (%)       : %43.66
+  📌 Macro CER (%)       : %46.72
+  📌 Macro WER (%)       : %85.72
+--------------------------------------------------------------------------------
+✨ DEĞERLENDİRME SKORLARI (NORMALİZE EDİLMİŞ - Noktalama & Aksan Toleranslı):
+  📌 Micro CER (%)       : %39.21
+  📌 Macro CER (%)       : %42.13
+  📌 Macro WER (%)       : %81.02
+--------------------------------------------------------------------------------
+📈 DİĞER METRİKLER VE HIZ:
+  📌 chrF++ Skoru        : 32.97
+  📌 Toplam Çıkarım Süresi: 87.16 saniye
+  📌 Çıkarım Hızı (Hız)   : 18.07 satır / saniye
+  📌 Toplam İşlem Süresi  : 135.57 saniye (2.26 dakika)
+================================================================================

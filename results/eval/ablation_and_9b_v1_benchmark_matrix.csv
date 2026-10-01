@@ -1,0 +1,7 @@
+model_name,dataset_name,total_samples,micro_raw_cer,micro_norm_cer,macro_norm_wer,chrf_plus_plus,throughput_samples_per_sec,total_duration_sec
+qwen35_9b_latin_gptq_w4a16_v1_15042,815_rika,815,16.2,14.58,31.93,72.63,6.82,172.6
+qwen35_9b_latin_gptq_w4a16_v1_15042,osmanlicacom_1575,1575,45.29,40.73,83.74,33.04,7.57,259.93
+qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_highres_lora32,815_rika,815,16.6,14.96,33.12,71.69,15.86,96.57
+qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_highres_lora32,osmanlicacom_1575,1575,45.96,41.62,83.81,31.83,17.25,139.41
+qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_lowres_lora64,815_rika,815,16.11,14.57,32.42,72.64,15.84,96.91
+qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_lowres_lora64,osmanlicacom_1575,1575,48.62,44.22,87.2,30.86,17.19,140.55

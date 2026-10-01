@@ -1,0 +1,90 @@
+{
+    "model_name": "qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_lr3e5",
+    "tag": "v2_15042_7740_ablasion_lr3e5",
+    "in_distribution_815": {
+        "micro_raw_cer": 21.71,
+        "micro_raw_ci": [
+            20.64,
+            22.95
+        ],
+        "micro_norm_cer": 19.77,
+        "micro_norm_ci": [
+            18.75,
+            20.94
+        ],
+        "macro_norm_cer": 22.54,
+        "macro_norm_ci": [
+            21.11,
+            23.97
+        ],
+        "chrf_plus_plus": 65.67,
+        "throughput_lines_per_sec": 15.81,
+        "peak_vram_allocated_gb": 0.0,
+        "peak_vram_reserved_gb": 0.0
+    },
+    "out_of_distribution_1575": {
+        "micro_raw_cer": 49.53,
+        "micro_raw_ci": [
+            48.33,
+            51.02
+        ],
+        "micro_norm_cer": 45.31,
+        "micro_norm_ci": [
+            44.12,
+            46.77
+        ],
+        "macro_norm_cer": 48.49,
+        "macro_norm_ci": [
+            46.97,
+            50.12
+        ],
+        "chrf_plus_plus": 29.53,
+        "throughput_lines_per_sec": 21.01,
+        "peak_vram_allocated_gb": 0.0,
+        "peak_vram_reserved_gb": 0.0
+    },
+    "paired_bootstrap_vs_high_hp": {
+        "id_815": {
+            "obs_new": 19.77,
+            "obs_ref": 13.91,
+            "delta": 5.86,
+            "ci_95": [
+                5.13,
+                6.62
+            ],
+            "p_value": 0.0001
+        },
+        "ood_1575": {
+            "obs_new": 45.31,
+            "obs_ref": 39.21,
+            "delta": 6.11,
+            "ci_95": [
+                4.97,
+                7.48
+            ],
+            "p_value": 0.0001
+        }
+    },
+    "paired_bootstrap_vs_low_hp": {
+        "id_815": {
+            "obs_new": 19.77,
+            "obs_ref": 24.86,
+            "delta": -5.09,
+            "ci_95": [
+                -6.05,
+                -4.14
+            ],
+            "p_value": 0.0001
+        },
+        "ood_1575": {
+            "obs_new": 45.31,
+            "obs_ref": 52.72,
+            "delta": -7.41,
+            "ci_95": [
+                -9.03,
+                -5.78
+            ],
+            "p_value": 0.0001
+        }
+    }
+}

@@ -1,0 +1,17 @@
+Modality,Threshold_Ta,One_to_One_Matches,GT_Lines_N,Pred_Lines_M,Detection_Rate_Recall_Pct,Recognition_Accuracy_Precision_Pct,F_Measure_Pct,Notes
+Pixel Foreground Ink,0.95,144,778,1492,18.51,9.65,12.69,ICDAR Line Segmentation Standard
+Pixel Foreground Ink,0.90,274,778,1492,35.22,18.36,24.14,ICDAR Word Segmentation Standard
+Pixel Foreground Ink,0.85,353,778,1492,45.37,23.66,31.10,High overlap threshold
+Pixel Foreground Ink,0.80,409,778,1492,52.57,27.41,36.04,Moderate-high overlap
+Pixel Foreground Ink,0.75,440,778,1492,56.56,29.49,38.77,Standard document threshold
+Pixel Foreground Ink,0.70,465,778,1492,59.77,31.17,40.97,Relaxed threshold
+Pixel Foreground Ink,0.60,512,778,1492,65.81,34.32,45.11,Robust overlap threshold
+Pixel Foreground Ink,0.50,593,778,1492,76.22,39.75,52.25,Relaxed baseline (o2o condition)
+Geometric Bounding Box,0.95,0,778,1492,0.00,0.00,0.00,Bounding box with whitespace padding
+Geometric Bounding Box,0.90,6,778,1492,0.77,0.40,0.53,Bounding box with whitespace padding
+Geometric Bounding Box,0.85,29,778,1492,3.73,1.94,2.56,Bounding box with whitespace padding
+Geometric Bounding Box,0.80,60,778,1492,7.71,4.02,5.29,Bounding box with whitespace padding
+Geometric Bounding Box,0.75,118,778,1492,15.17,7.91,10.40,Strict bounding box overlap
+Geometric Bounding Box,0.70,162,778,1492,20.82,10.86,14.27,Moderate bounding box overlap
+Geometric Bounding Box,0.60,238,778,1492,30.59,15.95,20.97,Moderate bounding box overlap
+Geometric Bounding Box,0.50,313,778,1492,40.23,20.98,27.58,Standard object detection IoU threshold

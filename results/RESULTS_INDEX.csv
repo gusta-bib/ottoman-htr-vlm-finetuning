@@ -1,0 +1,34 @@
+location,item,value,source_file,field,match
+Table 5,2B Subset 1 ID Norm,16.63,eval_qwen35_2b_latin_v1_15042_815_rika_metrics.json,normalized_cer,exact
+Table 5,2B Subset 1 OOD Norm,43.92,eval_qwen35_2b_latin_v1_15042_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,2B Subset 2 ID Norm,14.94,eval_qwen35_2b_latin_v2_15042_7740_815_rika_metrics.json,normalized_cer,exact
+Table 5,2B Subset 2 OOD Norm,44.43,eval_qwen35_2b_latin_v2_15042_7740_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,2B Subset 3 ID Norm,14.67,eval_qwen35_2b_latin_v3_15042_7740_4678_815_rika_metrics.json,normalized_cer,exact
+Table 5,2B Subset 3 OOD Norm,42.92,eval_qwen35_2b_latin_v3_15042_7740_4678_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,4B Subset 1 ID Norm,15.03,eval_qwen35_4b_latin_v1_15042_815_rika_metrics.json,normalized_cer,exact
+Table 5,4B Subset 1 OOD Norm,40.65,eval_qwen35_4b_latin_v1_15042_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,4B Subset 2 ID Norm,13.91,eval_qwen35_4b_latin_v2_15042_7740_815_rika_metrics.json,normalized_cer,exact
+Table 5,4B Subset 2 OOD Norm,39.21,eval_qwen35_4b_latin_v2_15042_7740_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,4B Subset 3 ID Norm,13.48,eval_qwen35_4b_latin_v3_15042_7740_4678_815_rika_metrics.json,normalized_cer,exact
+Table 5,4B Subset 3 OOD Norm,39.66,eval_qwen35_4b_latin_v3_15042_7740_4678_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,9B Subset 1 ID Norm,14.58,eval_qwen35_9b_latin_v1_15042_815_rika_metrics.json,normalized_cer,exact
+Table 5,9B Subset 1 OOD Norm,40.73,eval_qwen35_9b_latin_v1_15042_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,9B Subset 2 ID Norm,13.29,eval_qwen35_9b_latin_v2_vllm_gptq_815_rika_metrics.json,normalized_cer,exact
+Table 5,9B Subset 2 OOD Norm,37.31,eval_qwen35_9b_latin_v2_vllm_gptq_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 5,9B Subset 3 ID Norm,13.14,eval_qwen35_9b_latin_v3_vllm_gptq_815_rika_metrics.json,normalized_cer,exact
+Table 5,9B Subset 3 OOD Norm,40.61,eval_qwen35_9b_latin_v3_vllm_gptq_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 6,4B Lower LR ID Norm,19.77,eval_qwen35_4b_latin_gptq_w4a16_v2_ablation_lr3e5_815_rika_metrics.json,normalized_cer,exact
+Table 6,4B Lower LR OOD Norm,45.31,eval_qwen35_4b_latin_gptq_w4a16_v2_ablation_lr3e5_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 6,4B Lower Image Limit ID Norm,14.57,eval_qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_lowres_lora64_815_rika_metrics.json,normalized_cer,exact
+Table 6,4B Lower Image Limit OOD Norm,44.22,eval_qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_lowres_lora64_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 6,4B Lower Rank ID Norm,14.96,eval_qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_highres_lora32_815_rika_metrics.json,normalized_cer,exact
+Table 6,4B Lower Rank OOD Norm,41.62,eval_qwen35_4b_latin_gptq_w4a16_v2_15042_7740_ablasion_highres_lora32_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 6,4B Low HP Ref ID Norm,24.86,eval_qwen35_4b_latin_v2_15042_7740_test_815_rika_metrics.json,normalized_cer,exact
+Table 6,4B Low HP Ref OOD Norm,52.72,eval_qwen35_4b_latin_v2_15042_7740_test_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Section 4.3 / Figure 3,2B Low HP ID Norm,27.56,eval_qwen35_2b_latin_v2_15042_7740_test_815_rika_metrics.json,normalized_cer,exact
+Section 4.3 / Figure 3,2B Low HP OOD Norm,52.91,eval_qwen35_2b_latin_v2_15042_7740_test_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Section 4.3 / Figure 3,9B Low HP ID Norm,23.36,eval_qwen35_9b_lowhp_gptq_w4a16_subset1_815_rika_metrics.json,normalized_cer,exact
+Section 4.3 / Figure 3,9B Low HP OOD Norm,50.16,eval_qwen35_9b_lowhp_gptq_w4a16_subset1_osmanlicacom_1575_metrics.json,normalized_cer,exact
+Table 8,2B Throughput (lines/s),24.37,eval_qwen35_2b_latin_v3_15042_7740_4678_815_rika_metrics.json,lines_per_second,exact
+Table 8,4B Throughput (lines/s),15.86,eval_qwen35_4b_latin_v3_15042_7740_4678_815_rika_metrics.json,lines_per_second,exact
+Table 8,9B Throughput (lines/s),6.90,eval_qwen35_9b_latin_v3_vllm_gptq_815_rika_metrics.json,lines_per_second,exact
