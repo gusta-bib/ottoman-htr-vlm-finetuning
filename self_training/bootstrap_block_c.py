@@ -7,10 +7,10 @@ QWEN3.5-9B LATİN MERGED V2 (GPTQ W4A16) - VERİ SETİ HİZALAMA VE ÜRETİM SCR
 Amaç        : line_based_data içerisindeki 74.417 ham satır görselini vLLM ile
               çıkarıp tam sayfa transkripsiyonları (annotations_transliteration)
               ile hizalayarak yeni satır bazlı altın standart (Ground Truth) veri seti üretmek.
-Model       : /home/fatih/Documents/ottoman/models/qwen35_9b_latin_gptq_w4a16_v2
-Girdi Dizin : /home/fatih/Documents/ottoman/data-set/line_based_data (74.417 Görsel)
-Metin Dizin : /home/fatih/Documents/ottoman/data-set/annotations_transliteration
-Çıktı Dizin : /home/fatih/Documents/ottoman/data-set/ground_truth_line_based_dataset_qwen35_latin_v2
+Model       : <PROJECT_ROOT>/models/qwen35_9b_latin_gptq_w4a16_v2
+Girdi Dizin : <PROJECT_ROOT>/data-set/line_based_data (74.417 Görsel)
+Metin Dizin : <PROJECT_ROOT>/data-set/annotations_transliteration
+Çıktı Dizin : <PROJECT_ROOT>/data-set/ground_truth_line_based_dataset_qwen35_latin_v2
 Donanım     : NVIDIA GeForce RTX 4070 Ti SUPER (16 GB VRAM)
 Teknoloji   : vLLM (v0.26.0) + compressed-tensors (GPTQ W4A16) + Fuzzy Matching
 ==================================================================================
@@ -43,12 +43,12 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 # ============================================================
 # 1. KLASÖR VE MODEL YAPILANDIRMASI
 # ============================================================
-BASE_DATASET_DIR = "/home/fatih/Documents/ottoman/data-set"
+BASE_DATASET_DIR = "<PROJECT_ROOT>/data-set"
 
 LINE_BASED_DIR = os.path.join(BASE_DATASET_DIR, "line_based_data")
 ANNOTATIONS_DIR = os.path.join(BASE_DATASET_DIR, "annotations_transliteration")
 
-MODEL_PATH = "/home/fatih/Documents/ottoman/models/qwen35_9b_latin_gptq_w4a16_v2"
+MODEL_PATH = "<PROJECT_ROOT>/models/qwen35_9b_latin_gptq_w4a16_v2"
 
 OUTPUT_DIR = os.path.join(BASE_DATASET_DIR, "ground_truth_line_based_dataset_qwen35_latin_v2")
 os.makedirs(OUTPUT_DIR, exist_ok=True)

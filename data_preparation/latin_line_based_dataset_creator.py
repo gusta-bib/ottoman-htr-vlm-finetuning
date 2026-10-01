@@ -10,10 +10,10 @@ from rapidfuzz import fuzz
 # ============================================================
 # 1. KLASÖR YOLLARI
 # ============================================================
-DRIVE_ARABIC_LINE_GT_DIR = "/content/drive/MyDrive/Tübitak 3 - Ottoman Turkish/TB3/data-set/ground_truth_line_based_dataset"
-DRIVE_ARABIC_PAGE_DIR    = "/content/drive/MyDrive/Tübitak 3 - Ottoman Turkish/TB3/data-set/clean_dataset/annotations_nesih"
-DRIVE_LATIN_PAGE_DIR     = "/content/drive/MyDrive/Tübitak 3 - Ottoman Turkish/TB3/data-set/clean_dataset/annotations_transliteration"
-DRIVE_OUTPUT_DIR         = "/content/drive/MyDrive/Tübitak 3 - Ottoman Turkish/TB3/data-set/ground_truth_line_based_dataset_latin1"
+DRIVE_ARABIC_LINE_GT_DIR = "<DRIVE_PATH> 3 - Ottoman Turkish/TB3/data-set/ground_truth_line_based_dataset"
+DRIVE_ARABIC_PAGE_DIR    = "<DRIVE_PATH> 3 - Ottoman Turkish/TB3/data-set/clean_dataset/annotations_nesih"
+DRIVE_LATIN_PAGE_DIR     = "<DRIVE_PATH> 3 - Ottoman Turkish/TB3/data-set/clean_dataset/annotations_transliteration"
+DRIVE_OUTPUT_DIR         = "<DRIVE_PATH> 3 - Ottoman Turkish/TB3/data-set/ground_truth_line_based_dataset_latin1"
 
 LOCAL_BASE_DIR          = "/tmp/dataset_work"
 LOCAL_ARABIC_LINE_GT    = os.path.join(LOCAL_BASE_DIR, "line_gt")

@@ -1,5 +1,5 @@
 """
-Azra - Latin (Qwen3.5-9B-GPTQ-W4A16) - Tüm Veri Seti Çıkarım ve Hizalama Scripti
+qwen35_9b_lowhp (Qwen3.5-9B-GPTQ-W4A16) - Tüm Veri Seti Çıkarım ve Hizalama Scripti
 Yerel Sistem: NVIDIA GeForce RTX 4070 Ti SUPER (16 GB VRAM) - vLLM Optimize (Thinking/Reasoning Kapalı)
 """
 
@@ -19,14 +19,14 @@ from tqdm import tqdm
 # ============================================================
 # 1. KLASÖR VE MODEL YOLLARI
 # ============================================================
-BASE_DATASET_DIR = "/home/fatih/Documents/ottoman/data-set"
+BASE_DATASET_DIR = "<PROJECT_ROOT>/data-set"
 
 LINE_BASED_DIR = os.path.join(BASE_DATASET_DIR, "line_based_data")
 ANNOTATIONS_DIR = os.path.join(BASE_DATASET_DIR, "annotations_transliteration")
 
-MODEL_PATH = "/home/fatih/Documents/ottoman/models/Azra - Latin - GPTQ-W4A16"
+MODEL_PATH = "<PROJECT_ROOT>/models/qwen35_9b_lowhp_gptq_w4a16"
 
-OUTPUT_DIR = os.path.join(BASE_DATASET_DIR, "ground_truth_line_based_dataset_azra_latin")
+OUTPUT_DIR = os.path.join(BASE_DATASET_DIR, "ground_truth_line_based_dataset_qwen35_9b_lowhp")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 FAILED_LOG_PATH = os.path.join(OUTPUT_DIR, "failed_lines_log.txt")
@@ -144,7 +144,7 @@ def main():
             print("ℹ️ config.json güncel ('tie_word_embeddings': True).")
 
     # vLLM Motorunu Başlat
-    print(f"\n[{time.strftime('%H:%M:%S')}] 🚀 vLLM Motoru Başlatılıyor (Azra - Latin - GPTQ-W4A16)...")
+    print(f"\n[{time.strftime('%H:%M:%S')}] 🚀 vLLM Motoru Başlatılıyor (qwen35_9b_lowhp_gptq_w4a16)...")
     processor = AutoProcessor.from_pretrained(MODEL_PATH, trust_remote_code=True)
 
     try:

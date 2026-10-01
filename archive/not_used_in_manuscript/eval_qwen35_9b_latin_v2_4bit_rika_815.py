@@ -4,9 +4,9 @@
 ==================================================================================
 QWEN3.5-9B LATİN MERGED V2 - 4-BIT NF4 + FLASH-ATTENTION-2 TEST VE DEĞERLENDİRME
 ==================================================================================
-Model       : /home/fatih/Documents/ottoman/models/qwen35_9b_latin_merged_v2
-Veri Kümesi : /home/fatih/Documents/ottoman/data-set/815_line_based_in_distrubition_rika_latin
-Çıktı       : /home/fatih/Documents/ottoman/evaluation_results
+Model       : <PROJECT_ROOT>/models/qwen35_9b_latin_merged_v2
+Veri Kümesi : <PROJECT_ROOT>/data-set/815_line_based_in_distrubition_rika_latin
+Çıktı       : <PROJECT_ROOT>/evaluation_results
 Donanım     : NVIDIA GeForce RTX 4070 Ti SUPER (16 GB VRAM)
 Teknoloji   : 4-Bit NF4 (BitsAndBytes) + Native bfloat16 + FlashAttention-2 + TF32
 ==================================================================================
@@ -53,9 +53,9 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # ============================================================
 # 1. DİZİNLER VE SABİTLER
 # ============================================================
-MODEL_PATH = "/home/fatih/Documents/ottoman/models/qwen35_9b_latin_merged_v2"
-DATASET_PATH = "/home/fatih/Documents/ottoman/data-set/815_line_based_in_distrubition_rika_latin"
-OUTPUT_DIR = "/home/fatih/Documents/ottoman/evaluation_results"
+MODEL_PATH = "<PROJECT_ROOT>/models/qwen35_9b_latin_merged_v2"
+DATASET_PATH = "<PROJECT_ROOT>/data-set/815_line_based_in_distrubition_rika_latin"
+OUTPUT_DIR = "<PROJECT_ROOT>/evaluation_results"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 REPORT_TXT_PATH = os.path.join(OUTPUT_DIR, "eval_qwen35_9b_latin_v2_rika_815_report.txt")
